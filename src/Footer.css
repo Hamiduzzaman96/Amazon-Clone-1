@@ -1,0 +1,108 @@
+.amazon-footer {
+    background-color: black;
+  }
+  .amazon-footer-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .amazon-footer-logo-image {
+    max-width: 160px;
+  }
+  
+ 
+  .amazon-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .amazon-col {
+    &--20 {
+        display: flex;
+      max-width: 20%;
+    }
+    &--30 {
+      display: flex;
+      max-width: 30%;
+    }
+   
+  }
+  
+
+  .amazon-footer-lists {
+    padding: 40px 0;
+  }
+  .amazon-footer-list-item {
+    margin-bottom: 8px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  
+  .amazon-footer-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+  }
+  .amazon-footer-text {
+    font-size: 13px;
+    line-height: 20px;
+    color: grey;
+  }
+  .amazon-footer-link {
+    font-size: 13px;
+    line-height: 20px;
+    color: grey;
+    &:hover {
+      color: white;
+    }
+  }
+  
+
+  .amazon-sub-footer {
+    padding: 12px 0;
+    border-top: 1px solid lightgray;
+    line-height: 0;
+    
+    .amazon-col:last-child {
+      text-align: right;
+    }
+    .amazon-footer-list-item {
+      display: inline-block;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+    .amazon-footer-link:hover {
+      color: white;
+    }
+    .amazon-footer-link,
+    .amazon-footer-text {
+      font-size: 12px;
+      color: #999;
+    }
+  }
+  
+  
+  
+  
+
+  body {
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  ul, li, h4, p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .amazon-footer {
+    
+    width: 100%;
+    bottom: 0;
+  }
+  
