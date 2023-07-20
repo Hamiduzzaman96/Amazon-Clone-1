@@ -3,6 +3,37 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+ .home{
+  flex-wrap: wrap;
+ }
+ .home .product{
+  flex-wrap: wrap;
+  flex-direction: column;
+ }
+ .home__row{
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 20px;
+ 
+ }
+ .home__image{
+  margin-bottom: -20px;
+ }
+ 
+ .home__row .product__info{
+  flex-wrap: wrap;
+ }
+ 
+}
+*{
+  box-sizing: border-box;
+}
+.home__container{
+ flex-wrap: wrap;
+ display: grid;
+}
 
 .home {
   /* display: flex; */
@@ -15,12 +46,13 @@
   
   width: 100%;
   z-index: -1;
-  margin-bottom: -150px;
+  
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
   .home__row {  
     display: flex; 
     z-index: 1; 
-    margin-left: 5px;  
-    margin-right: 5px;
+    
+   
+   
   }

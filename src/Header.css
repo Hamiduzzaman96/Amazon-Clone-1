@@ -1,8 +1,43 @@
 /* Extra small devices (phones, 600px and down) */
 
-@media screen and (max-width: 440px){
- 
-
+@media screen and (max-width: 600px){
+    .header_search{
+        justify-content: flex-start;
+        flex-wrap: wrap nowrap;
+    }
+    .header_logo{
+        display: flex;
+        align-items: flex-start;
+    }
+     .header_basketCount{
+         padding-bottom: 10px;
+    }
+    .header_optionBasket{
+        padding-bottom: 20px;
+    }
+    
+    .btn-1{
+       
+     }
+    .header_nav{
+        justify-content: center;
+        columns: auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header{
+        height: 200px;
+    }
+    .header_logo{
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+    
+    
+    
+}
+*{
+    box-sizing: border-box;
 }
 
 
@@ -10,7 +45,7 @@
 
 
 .header{
-    height: 60px;
+    /* height: 60px; */
     display:flex;
     align-items: center;
     background-color: #131921;
@@ -64,10 +99,11 @@
 }
 .header_optionBasket{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     color: white;
 }
 .header_basketCount{
     margin-left: 10px;
     margin-right: 10px;
+    
 }

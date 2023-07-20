@@ -1,5 +1,22 @@
+@media(max-width:600px){
+  .amazon-footer{
+    flex-wrap: wrap;
+  }
+  .amazon-footer-logo-image{
+    flex-wrap: wrap;
+    padding-right: 2rem;
+  }
+  .amazon-col{
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    padding-left: 4px;
+
+   
+  }
+}
 .amazon-footer {
     background-color: black;
+    
   }
   .amazon-footer-container {
     width: 90%;
