@@ -1,6 +1,7 @@
 @media(max-width:600px){
   .amazon-footer{
     flex-wrap: wrap;
+    display: flex;
   }
   .amazon-footer-logo-image{
     flex-wrap: wrap;
@@ -11,8 +12,8 @@
     justify-content:flex-end;
     padding-left: 4px;
 
-   
   }
+
 }
 .amazon-footer {
     background-color: black;
