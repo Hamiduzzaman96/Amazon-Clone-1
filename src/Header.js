@@ -25,29 +25,29 @@ function Header() {
         <Link to="/"> <img  alt ="asdasd" className="header_logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"/></Link>
         </div>
         <div className='header_list'>
-        <div>
+        
         <button 
             onClick={() => isClose(!isOpen)} 
             class="btn-1">
            <FaBars/>
            </button>
-        </div>
+       
        
       {isOpen &&(
-      <div>
+      <div className='zero'>
      
           <Link to='/login'>
             <div onClick={handleAuthentication} className='header_option'>
-            <span className='header_optionLine1'>Hello! {!user ? 'Guest':user.email}</span>
+            <span className='header_optionLine1'>Hello!  {!user ? 'Guest ' :user.email}</span>
             <span className='header_optionLine2'>{user? 'Sign out':'Sign In'}</span>
             </div>
             </Link>
             <div className='header_option'>
-            <span className='header_optionLine1'>Returns</span>
+            <span className='header_optionLine1'>Returns </span>
             <span className='header_optionLine2'>& Orders</span>
             </div>
             <div className='header_option'>
-            <span className='header_optionLine1'>Your</span>
+            <span className='header_optionLine1'>Your </span>
             <span className='header_optionLine2'>Prime</span>
            
           </div>
